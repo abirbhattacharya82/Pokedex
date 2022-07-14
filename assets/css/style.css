@@ -1,0 +1,153 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: #050227;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+.container
+{
+    width: 30%;
+    position: fixed;
+}
+.A1
+{
+    height: 40px;
+    background-color: #B4161B;
+    display: flex;
+    padding-left: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.A1 .small
+{
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#red
+{
+    background-color: #DE4839;
+}
+#yellow
+{
+    background-color: #EDBF69;
+}
+#green
+{
+    background-color: #38CC77;
+}
+.A2
+{
+    display: flex;
+}
+.A2 .A2a
+{
+    width: 50%;
+    background-color: #B4161B;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.A2 .A2b
+{
+    display: flex;
+    background-color: #B4161B;
+    padding-right: 2%;
+}
+.A2 .A2b button
+{
+    background-color: #DE4839;
+    border: none;
+    color: white;
+    padding: 1%;
+}
+.A2 .A2b button:hover
+{
+    background-color: #520c0c;
+}
+.A2 .A2b input
+{
+    outline: none;
+}
+.A3
+{
+    width: 100%;
+    background-color: #B4161B;
+    display: flex;
+    justify-content: center;
+}
+.A3 .A3a
+{
+    width: 70%;
+    background-color: #CAD5E2;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    padding: 10%;
+    padding-bottom: 3%;
+    display: flex;
+    clip-path: polygon(0 0, 100% 0, 100% 12%, 100% 100%, 10% 100%, 0 90%);
+}
+.A3 .A3a .image
+{
+    margin-bottom: 1%;
+    width: 100%;
+    height: 190px;
+}
+.A3 .A3a .image img
+{
+    width: 100%;
+}
+.A3 .A3b
+{
+    margin-left: 5%;
+}
+.A3 .A3b .cat
+{
+    background-color: #E07C24;
+    width: 100px;
+    margin-top: 15%;
+    border-radius: 10px;
+    padding: 2%;
+    text-align: center;
+}
+.A4
+{
+    height: 140px;
+    background-color: #B4161B;
+    display: flex;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.A4 .A4a
+{
+    height: 50px;
+    background-color: #054914;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 5%;
+}
+.A4 .A4b
+{
+    height: 50px;
+    background-color: #3dd600;
+    width: 180px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.A4 .A4c
+{
+    height: 100px;
+    width: 100px;
+    background-color: #054914;
+    margin-left: 5%;
+    clip-path: polygon(0 35%, 35% 35%, 35% 0%, 65% 0%, 65% 35%, 100% 35%, 100% 60%, 65% 60%, 65% 100%, 35% 100%, 35% 60%, 0 60%);
+}
